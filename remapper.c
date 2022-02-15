@@ -41,7 +41,7 @@ void create_uinput_device (int fd) {
   struct uinput_user_dev uidev;
   memset(&uidev, 0, sizeof(uidev));
 
-  snprintf(uidev.name, UINPUT_MAX_NAME_SIZE, "NiseFootPedal");
+  snprintf(uidev.name, UINPUT_MAX_NAME_SIZE, "NekoQ");
   uidev.id.bustype = BUS_USB;
   uidev.id.vendor  = 0xDEAD;
   uidev.id.product = 0xBEEF;
